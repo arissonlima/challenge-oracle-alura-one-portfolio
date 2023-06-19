@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 2rem 0 2rem 0;
+  margin-bottom: 2rem;
 }
 
 .menu{
@@ -37,6 +38,7 @@
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
+    margin-bottom: 2.5rem;
   }
 
   .menu-items{
