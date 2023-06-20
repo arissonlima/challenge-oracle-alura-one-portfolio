@@ -1,6 +1,7 @@
 :root{
   --background: #F5F5F5;
   --black: #464646;
+  --blue: #EAF2FD;
 }
 
 *{
@@ -33,4 +34,20 @@ img{
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media(max-width: 768px){
+  .container{
+    max-width: 768px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media(max-width: 360px){
+  .container{
+    max-width: 360px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
