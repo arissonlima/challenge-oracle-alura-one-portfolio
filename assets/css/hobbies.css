@@ -1,6 +1,12 @@
+.hobbies{
+  padding-bottom: 5.5rem;
+}
+
 .hobbies h2{
   margin-top: 2rem;
   margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
   text-align: center;
 }
 
