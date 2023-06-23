@@ -1,5 +1,5 @@
 .contact-bg{
-  background: var(--blue);
+  background: var(--p2);
 }
 
 .contact-content{
@@ -16,12 +16,14 @@
 }
 
 .contact-form h2{
+  color: var(--s4);
   font-size: 2rem;
   margin-bottom: 0.5rem;
   font-weight: 700;
 }
 
 .contact-form p{
+  color: var(--s4);
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 2rem;
@@ -34,6 +36,7 @@
 }
 
 .contact-form input{
+  color: var(--t3);
   background: var(--white);
   width: 656px;
   height: 56px;
@@ -46,6 +49,7 @@
 }
 
 .contact-form textarea{
+  color: var(--t3);
   background: var(--white);
   width: 656px;
   height: 132px;

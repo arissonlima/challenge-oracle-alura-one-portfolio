@@ -35,9 +35,13 @@
   display: flex;
   align-items: center;
   gap: 4px;
-  color: var(--black);
+  color: var(--p4);
   font-size: 1rem;
   font-weight: 500;
+}
+
+.hero .hero-info .menu-social-networking li a:hover{
+  color: var(--p6);
 }
 
 .hero .hero-info .menu-social-networking li a::after{

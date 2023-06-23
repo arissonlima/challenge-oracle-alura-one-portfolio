@@ -25,12 +25,12 @@
   padding: 1rem;
   width: 176px;
   height: 174px;
-  background: var(--white);
+  background: var(--t2);
 }
 
 .skills .skills-items .skills-item .skills-icon{
   /* width: 24px; */
-  height: 35px;
+  height: 30px;
 }
 
 .skills .skills-items .skills-item li h3{

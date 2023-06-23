@@ -1,5 +1,5 @@
 .about-bg{
-  background: var(--blue);
+  background: var(--p4);
 }
 
 .about-bg .about{
@@ -10,15 +10,17 @@
 .about-bg .about h2{
   font-weight: 700;
   font-size: 2rem;
-  color: var(--black);
+  color: var(--t2);
   margin-bottom: 1rem;
 }
 
 .about-bg .about p{
+  color: var(--t2);
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.2;
   max-width: 750px;
+  margin-bottom: 1rem;
 }
 
 @media(max-width: 768px){
