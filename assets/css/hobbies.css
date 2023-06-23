@@ -25,7 +25,13 @@
   padding: 1rem;
   width: 176px;
   height: 174px;
-  background: var(--white);
+  background: var(--t2);
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.hobbies .hobbies-items .hobbies-item:hover{
+  transform: translateY(-10px);
 }
 
 .hobbies .hobbies-items .hobbies-item .hobbies-icon{

@@ -25,6 +25,11 @@
 .experience-image img{
   width: 752px;
   height: 406px;
+  transition: all .5s;
+}
+
+.experience-image img:hover{
+  transform: translateY(-10px);
 }
 
 .experience-info h3{

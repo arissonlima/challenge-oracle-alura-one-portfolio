@@ -26,6 +26,12 @@
   width: 176px;
   height: 174px;
   background: var(--t2);
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.skills .skills-items .skills-item:hover{
+  transform: translateY(-10px);
 }
 
 .skills .skills-items .skills-item .skills-icon{
