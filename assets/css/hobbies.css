@@ -31,6 +31,7 @@
 }
 
 .hobbies .hobbies-items .hobbies-item:hover{
+  border-bottom: 5px solid var(--p4);
   transform: translateY(-10px);
 }
 

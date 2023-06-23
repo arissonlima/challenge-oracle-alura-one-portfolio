@@ -1,4 +1,6 @@
 :root{
+  --bg: #F5F5F5;
+
   --p1: #F9FCD3;
   --p2: #CDF59B;
   --p3: #7EEC67;
@@ -27,7 +29,7 @@
 }
 
 body{
-  background-color: var(--background);
+  background-color: var(--bg);
   font-family: 'Raleway', sans-serif;
   color: var(--s4);
 }
