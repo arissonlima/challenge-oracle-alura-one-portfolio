@@ -2,6 +2,9 @@
   --background: #F5F5F5;
   --black: #464646;
   --blue: #EAF2FD;
+  --blue-2: #2A7AE4;
+  --blue-3: #5595E9;
+  --blue-4: #D4E4FA;
   --white: #FFFFFF;
 }
 
@@ -35,6 +38,35 @@ img{
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.button{
+  display: inline-block;
+  width: 116px;
+  height: 50px;
+  background: var(--blue-2);
+  color: var(--white);
+  padding: 1rem;
+  text-align: center;
+}
+
+.button-outline{
+  display: inline-block;
+  width: 116px;
+  height: 50px;
+  border: 1px solid var(--blue-2);
+  color: var(--blue-2);
+  background: transparent;
+  padding: 1rem;
+  text-align: center;
+}
+
+.button:hover{
+  background: var(--blue-3);
+}
+
+.button-outline:hover{
+  background-color: var(--blue-4);
 }
 
 @media(max-width: 768px){
