@@ -29,6 +29,7 @@
   display: flex;
   align-items: center;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .hero .hero-info .menu-social-networking li a{
@@ -53,14 +54,16 @@
 }
 
 .hero .hero-profile-photo{
-  width: 360px;
+  max-width: 360px;
   height: 360px;
 }
 
 @media(max-width: 768px){
   .hero{
+    flex-wrap: wrap;
     padding-left: 2rem;
     padding-right: 2rem;
+    margin: 0 auto;
   }
 
   .hero .hero-info{
@@ -76,8 +79,19 @@
   }
 
   .hero .hero-profile-photo{
-    width: 146px;
+    max-width: 146px;
     height: 146px;
+    order: -1;
+  }
+}
+
+@media(max-width: 500px){
+  .hero-info{
+    width: 360px;
+  }
+
+  .hero .hero-info .menu-social-networking{
+    gap: 1rem;
   }
 }
 
@@ -89,11 +103,11 @@
     padding-right: 1rem;
   }
 
-  .hero .hero-info{
+  .hero-info{
     max-width: 328px;
   }
 
-  .hero .hero-info p{
+  .hero-info p{
     font-size: 0.875rem;
   }
 

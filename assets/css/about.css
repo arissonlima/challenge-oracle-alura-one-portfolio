@@ -1,5 +1,6 @@
 .about-bg{
   background: var(--p4);
+  max-width: 100vw;
 }
 
 .about-bg .about{

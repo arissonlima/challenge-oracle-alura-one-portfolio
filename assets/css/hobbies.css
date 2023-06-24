@@ -66,6 +66,12 @@
   }
 }
 
+@media(max-width: 500px){
+  .hobbies .hobbies-items .hobbies-item{
+    width: 100%;
+  }
+}
+
 @media(max-width: 360px){
   .hobbies .hobbies-items .hobbies-item{
     width: 156px;

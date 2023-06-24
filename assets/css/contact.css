@@ -79,6 +79,20 @@
   }
 }
 
+@media(max-width: 500px){
+  .contact-form{
+    width: 100%;
+  }
+
+  .contact-form input{
+    width: 346px;
+  }
+
+  .contact-form textarea{
+    width: 346px;
+  }
+}
+
 @media(max-width:368px){
   .contact-content{
     padding-top: 2rem;

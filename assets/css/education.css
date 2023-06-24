@@ -54,6 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100vw;
   }
 
   .education h2{
@@ -76,6 +77,16 @@
   .education-item span{
     font-size: 0.875rem;
     font-weight: 500;
+  }
+}
+
+@media(max-width: 500px){
+  .education-items{
+    flex-wrap: wrap;
+  }
+
+  .education-image{
+    width: 350px;
   }
 }
 
