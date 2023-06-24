@@ -37,7 +37,7 @@
 
 .contact-form input{
   color: var(--t3);
-  background: var(--white);
+  background: var(--t2);
   width: 656px;
   height: 56px;
   border: none;
@@ -50,7 +50,7 @@
 
 .contact-form textarea{
   color: var(--t3);
-  background: var(--white);
+  background: var(--t2);
   width: 656px;
   height: 132px;
   border: none;
