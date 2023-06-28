@@ -1,0 +1,46 @@
+.intro{
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.intro-info{
+  max-width: 750px;
+}
+
+.intro-info h1{
+  font-size: 3.25rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.intro-info p{
+  font-size: 1.375rem;
+  font-weight: 500;
+}
+
+.intro-photo{
+  width: 368px;
+  height: 368px;
+}
+
+@media(max-width: 768px){
+  .intro-info{
+    max-width: 524px;
+  }
+
+  .intro-info h1{
+    font-size: 1.375rem;
+  }
+
+  .intro-info p{
+    font-size: 1rem;
+  }
+
+  .intro-photo{
+    width: 146px;
+    height: 146px;
+  }
+}

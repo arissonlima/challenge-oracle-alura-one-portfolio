@@ -1,0 +1,66 @@
+:root{
+  --bg: #F5F5F5;
+
+  --p1: #F9FCD3;
+  --p2: #CDF59B;
+  --p3: #7EEC67;
+  --p4: #35DF56;
+  --p5: #29BD70;
+  --p6: #1E9A7C;
+  --p7: #157176;
+
+  --s1: #D1D0D1;
+  --s2: #939192;
+  --s3: #565253;
+  --s4: #181413;
+  --s5: #141210;
+  --s6: #100F0D;
+  --s7: #0C0C09;
+
+  --t1: #D5D5D5;
+  --t2: #FFFFFF;
+  --t3: #808080;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  color: var(--s4);
+}
+
+a{
+  text-decoration: none;
+}
+
+ul, li{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.container{
+  max-width: 1440px;
+  padding: 4rem 9.5rem 4rem 9.5rem;
+  margin: 0 auto;
+}
+
+@media(max-width: 768px){
+  .container{
+    padding: 2rem;
+  }
+}
+
+@media(max-width: 360px){
+  .container{
+    padding: 1rem;
+  }
+}
